@@ -76,37 +76,3 @@ describe('Encontrar elementos', () => {
 });
 
 
-// /// <reference types="cypress"/>
-
-// describe('Encontrar elementos', () => {
-//   beforeEach(() => {
-//     cy.visit('https://practice.automationtesting.in/') // Acesso a pagina
-//   })
-
-//   it('Acessando pagina', () => {
-
-//     //A seguir encontrar elementos na pagina inicial
-
-//     cy.get('.n2-ss-slide-active > .n2-ss-slide-background > .n2-ss-slide-background-image').should('be.visible')
-
-//     // 1 iten encontrado
-//     cy.get('.post-160 > .woocommerce-LoopProduct-link > .attachment-shop_catalog').should('be.visible') // Imagem do produto
-
-//     cy.get('h3').contains('Selenium Ruby').should('be.visible') //validação de texto
-//     cy.get('span[class="woocommerce-Price-amount amount"]').contains('500.00') //Validação do valor do iten
-//     cy.get('a[href="/?add-to-cart=160"]').should('be.visible')
-
-//     // 2 ietn encontrado
-//     cy.get('img[src="https://practice.automationtesting.in/wp-content/uploads/2017/01/Thinking-in-HTML-300x300.jpg"]').should('be.visible')
-
-//     cy.get('h3').contains('Thinking in HTML').should('be.visible')
-//     cy.get('span[class="woocommerce-Price-amount amount"]').contains('400.00')
-
-//     // //3 iten encontrado
-//     cy.get('img[src="https://practice.automationtesting.in/wp-content/uploads/2017/01/Mastering-JavaScript-300x300.jpg"]').should('be.visible')
-
-//     cy.get('h3').contains('Mastering JavaScript').should('be.visible')
-//     cy.get('span[class="woocommerce-Price-amount amount"]').contains('350.00')
-
-//   })
-// })
